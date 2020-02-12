@@ -1,0 +1,3 @@
+[submodule "bin/transformers"]
+	path = bin/transformers
+	url = https://github.com/firojalam/transformers.git

@@ -1,0 +1,13 @@
+
+models
+results
+steps.txt
+data/archived
+data/sm_news_en_dev.csv
+data/sm_news_en_trn.csv
+data/sm_news_en_tst.csv 
+bin/__pycache__ 
+bin/split_data.py
+bin/performance.py
+bin/bert_multiclass.sh
+
