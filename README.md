@@ -1,9 +1,8 @@
 
 
 # Social Media News Post Categorization model.
-This is a release includes model for categorizing topics (13 categories) for social media posts from news agency, trained using posts from different online platforms of a well-know news organisation. The model is trained on dataset collected from post 2015 social media (Twitter, Facebook, Youtube).
+This release includes model for categorizing topics (13 categories) for social media posts from news agency. The model is trained on dataset collected from different online platforms (e.g., Twitter, Facebook, Youtube) of a well-know news organisation. It includes posts from 2016 to Jan, 2020.
 
-The model classifies a news post into either of these 13 categories.
 The categories are:
 * Culture, Art and Entertainment
 * Business and Economy
@@ -19,14 +18,7 @@ The categories are:
 * Sports
 * Others Categories - representing categories that are not mentioned above like travel blogs, news related to fashion among others.
 
-
-To train the model we conducted several experiments consisting of different machine learning algorithms and different feature representations. Here details for model i) SVM and ii) BERT (Model is not given here due to size, please download it from the server or email shammurchowdhury@gmail.com) are given.
-
-The model use a traditional SVM designed using word ngrams. The motivation for using Support Vector model is to handle the size and the imbalanced class distribution present in the dataset (see Table 1, for more details).
-The model is evaluated using:
-* Official dev and test set for evaluating in-domain data performance
-
-
+## Data Annotation
 To train the model, we annotated ~10K amount of data.
 The contents are collected from the following sources:
 * Twitter
@@ -74,10 +66,23 @@ Total |Train | Dev | Test
 :------: |:------: | :------:| :------:
 Total | 170850 | 788 | 1543
 
-## Training the models
+
+## Model training and evaluation
+To train the model we conducted several experiments consisting of different machine learning algorithms and different feature representations. The following two models are provided.
+* SVM
+* BERT (please download it from the local server or email shammurchowdhury@gmail.com).
+
+The SVM model is designed using word ngrams. The motivation for using Support Vector is that it is better for a limited data set and also good for imbalanced class distribution present in the dataset (see Table 1, for more details). 
+
+The model is evaluated using:
+* Dev and test set (see Table 1, for more details) for evaluating the in-domain data performance
 
 ### SVM
 For the training the classifier with SVM, we used TF-IDF representations for word ngrams. The reason to choose SVM with TF-IDF is their simplicity.
+
+
+
+## Predicting using the models
 
 ## Data Format
 ### Input data format
@@ -95,8 +100,7 @@ The output of the file will include the following fields
 The output are mapped to make label for readable (see Table 2 for more details).
 
 
-## Predicting using the models
-##SVM
+### SVM
 To run the classification model please use python version 3.7, install dependencies
 
 To install the requirements:
@@ -151,7 +155,7 @@ bash bin/bert_multiclass_classification.sh
 ```
 
 
-### Classification Results
+## Classification Results
 
 As mentioned earlier, the performance of the model is tested using official dev and test sets.
 
