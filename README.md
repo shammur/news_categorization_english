@@ -167,7 +167,7 @@ BERT-Test | 0.57 | 0.64
 
 Table 3: Class wise Performance of the SVM and BERT models on test set
 Output | Class | SVM | BERT
---------| :------: | :------:| :------:
+------| :------: | :------:| :------:
 Culture, Art and Entertainment  | art-and-entertainment | 0.55 | 0.59
 Business and Economy | business-and-economy | 0.57 | 0.54
 Crime and Security | crime_and_security | 0.59 | 0.57
