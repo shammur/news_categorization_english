@@ -20,7 +20,7 @@ The categories are:
 * Others Categories - representing categories that are not mentioned above like travel blogs, news related to fashion among others.
 
 
-To train the model we conducted several experiments consisting of different machine learning algorithms and different feature representations. Here details for model i) SVM and ii) BERT are given.
+To train the model we conducted several experiments consisting of different machine learning algorithms and different feature representations. Here details for model i) SVM and ii) BERT (Model is not given here due to size, please download it from the server or email shammurchowdhury@gmail.com) are given.
 
 The model use a traditional SVM designed using word ngrams. The motivation for using Support Vector model is to handle the size and the imbalanced class distribution present in the dataset (see Table 1, for more details).
 The model is evaluated using:
@@ -69,7 +69,7 @@ Train | Dev | Test
 4616 | 22 | 41
 1435 | 126 | 251
 
-|Train | Dev | Test
+Total |Train | Dev | Test
 :------: |:------: | :------:| :------:
 Total | 170850 | 788 | 1543
 
