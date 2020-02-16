@@ -160,13 +160,13 @@ Table 2: Overall Performance of the model on cross-validation
 
 Overall| Macro	F1| Weighted F1
 --------| :------: | :------:
-<!-- Dev | 0.60 | 0.65 -->
 SVM-Test | 0.56 | 0.64
 BERT-Test | 0.57 | 0.64
-
+<!-- Dev | 0.60 | 0.65 -->
 
 
 Table 3: Class wise Performance of the SVM and BERT models on test set
+
 Output | Class | SVM | BERT
 ------| :------: | :------:| :------:
 Culture, Art and Entertainment  | art-and-entertainment | 0.55 | 0.59
