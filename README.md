@@ -82,7 +82,7 @@ For the training the classifier with SVM, we used TF-IDF representations for wor
 
 
 
-## Predicting using the models
+## Prediction using the models
 
 ## Data Format
 ### Input data format
