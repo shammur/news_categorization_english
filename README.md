@@ -53,6 +53,7 @@ In addition to the social media post dataset, we also used News_Category_Dataset
 The overall data distribution is presented in below Table:
 
 Table 1: Train, dev and test distribution
+
 Train | Dev | Test
 :------: | :------:| :------:
 26094 | 34 | 64
