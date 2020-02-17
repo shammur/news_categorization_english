@@ -3,7 +3,7 @@
 cd bin/transformers/examples
 source $PATH_TO_ENV/news_cat_bert_env/bin/activate
 
-export HOME_DIR="$PWD"
+export HOME_DIR="your_path/news_categorization_english"
 export TASK_NAME=multiclass
 model=bert-base-uncased
 outputDir=$HOME_DIR/output_multi_class_${model}
