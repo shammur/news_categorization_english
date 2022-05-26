@@ -86,7 +86,7 @@ six==1.13.0
 sympy==1.4
 tensorboard==1.13.1
 tensorboardX==1.9
-tensorflow==1.14.0rc0
+tensorflow==2.7.2
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
